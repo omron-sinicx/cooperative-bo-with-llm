@@ -52,9 +52,13 @@ class ResourceBtn extends React.Component {
       this.props.title == 'huggingface' && this.state.isMobile
         ? ' hf '
         : this.props.title;
+    const url =
+      this.props.title === 'video'
+        ? `https://www.youtube.com/watch?v=${this.props.url}`
+        : this.props.url;
     return (
       <>
-        <a className={aClass} href={this.props.url} target="_blank">
+        <a className={aClass} href={url} target="_blank">
           <FaIcon size="2em" />
           <span className={sClass} style={{ fontFamily: 'Poppins' }}>
             {iTitle}

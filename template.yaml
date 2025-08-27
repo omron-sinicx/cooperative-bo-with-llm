@@ -5,7 +5,7 @@ title: 'Cooperative Design Optimization through Natural Language Interaction'
 conference: UIST2025
 resources:
   paper: https://arxiv.org/abs/2508.16077
-  video: https://www.youtube.com/embed/Haf2ftUvKUw?si=4x6z4FprRUyN2iXM
+  video: Haf2ftUvKUw
 description: In this work, we propose the concept of cooperative design optimization through natural language. To realize this, we present a novel technique to integrate an LLM with the Bayesian Optimization (BO)-based optimization procedure, enabling designers to intervene through natural language and understand the system’s intentions behind its suggestions.
 image: https://omron-sinicx.github.io/${your-repository-name}/teaser.png
 url: https://omron-sinicx.github.io/${your-repository-name}
