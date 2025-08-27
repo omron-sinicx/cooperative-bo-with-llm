@@ -36,6 +36,11 @@ meta:
   - '* work done as an intern at OMRON SINIC X.'
 bibtex: >
   # arXiv version
+  Link: https://arxiv.org/abs/2508.16077
+  BibTeX: (to appear)
+
+  # UIST 2025 version
+  BibTeX: (to appear)
 
 header:
   bg_curve:
